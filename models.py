@@ -7,8 +7,8 @@ class NomeGrupo(str, Enum):
     Enumeração que representa os nomes dos grupos.
 
     Atributos:
-        teste (str): Representa o grupo de teste.
-        operacoes (str): Representa o grupo de operações matemáticas.
+        teste (str): Retorna o nome do grupo de teste.
+        operacoes (str): Retorna o nome do grupo de operações matemáticas.
     """
     teste = "Teste"
     operacoes = "Operações Matemáticas"
