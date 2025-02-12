@@ -29,5 +29,5 @@ app = FastAPI(
     dependencies=[Depends(common_verificacao_api_token)],
 )
 
-app.include_router(operacoes_router.router)
-app.include_router(llm_router.router)
+app.include_router(operacoes_router.router, prefix="/operacoes")
+app.include_router(llm_router.router, prefix="/llm")

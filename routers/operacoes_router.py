@@ -53,6 +53,7 @@ def soma(numero1: int, numero2: int, api_token: int):
     tags=[NomeGrupo.operacoes],
     summary="Realiza a soma de dois números",
     description="Retorna dois números no corpo da requisição e retorna a soma",
+    response_model=Resultado,
     )
 def soma2(numero1: int, numero2: int):
     total = numero1 + numero2
