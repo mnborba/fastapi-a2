@@ -3,12 +3,12 @@ from utils import common_verificacao_api_token
 from routers import llm_router, operacoes_router
 
 
-descricao = """ 
-    API desenvolvida durante a aula 2, com exemplos de soma. 
-    
-    # Rotas definidas 
-    - /teste: retorna uma mensagem de sucesso 
-    - /soma/numero1/numero2:  recebe dois números e retorna a soma 
+descricao = """
+    API desenvolvida durante a aula 2, com exemplos de soma.
+
+    # Rotas definidas
+    - /teste: retorna uma mensagem de sucesso
+    - /soma/numero1/numero2:  recebe dois números e retorna a soma
 """
 
 
