@@ -1,12 +1,10 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter
 from utils import obter_logger_e_configuracao, executar_prompt
 
 
 logger = obter_logger_e_configuracao()
 
 router = APIRouter()
-
-password_postgres = "postgres123"
 
 
 @router.post(
