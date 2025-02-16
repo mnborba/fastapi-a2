@@ -6,6 +6,8 @@ logger = obter_logger_e_configuracao()
 
 router = APIRouter()
 
+password_postgres = "postgres123"
+
 
 @router.post(
     "/gerar_historia",
