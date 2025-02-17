@@ -15,7 +15,7 @@ router = APIRouter()
     tags=[NomeGrupo.teste],
 )
 def hello_world():
-    return {"message": "Hello World"}
+    return {"mensagem": "Deu certo"}
 
 
 @router.post(
