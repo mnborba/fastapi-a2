@@ -13,7 +13,7 @@ descricao = """
 
 
 app = FastAPI(
-    title="FastAPI Aula 4b",
+    title="FastAPI - Cargos v1",
     description=descricao,
     version="4.3",
     terms_of_service="http://example.com/terms/",
