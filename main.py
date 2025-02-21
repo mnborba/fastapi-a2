@@ -15,7 +15,7 @@ descricao = """
 app = FastAPI(
     title="FastAPI Aula 5b",
     description=descricao,
-    version="4.3",
+    version="4.4",
     terms_of_service="http://example.com/terms/",
     contact={
         "name": "Marcelo Nunes Borba",
